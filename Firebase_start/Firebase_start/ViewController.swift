@@ -28,8 +28,8 @@ class ViewController: UIViewController {
                     }
                 else { // if no error
                     // See if user has its profile created
-                    let user = Auth.cu
-                    var displayname =
+                    let user = user;
+                    var displayname = user?.displayName;
                     self.loginTitle.text="Hello" + displayname!;
 //                    self.performSegue(withIdentifier: "SignedIn", sender: self);
                 }

@@ -10,6 +10,9 @@ import UIKit
 
 class SignUpViewController: UIViewController {
 
+    @IBAction func gotoLogin(_ sender: Any) {
+        self.performSegue(withIdentifier: "toLogIn", sender: self)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
